@@ -1,0 +1,58 @@
+body{
+    background: url(./Stassets/TLL41382_2000x.jpeg);
+}
+
+header{
+    text-align: center;
+    display: inline;
+}
+
+ol, ul{
+  list-style: none;  
+}
+
+li{
+    display: block;
+    float: left;
+}
+
+.imgMe{
+    left: 45%;
+}
+
+a{
+    font-size: 34pt;
+    font-family: fantasy;
+    font-style: italic bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+.container{
+    margin: auto;
+    padding: 1.5rem;
+    visibility: hidden;
+    background-image: url(./Stassets/ohshit.jpeg);
+}
+
+
+
+footer{
+    margin-top: .75rem;
+    border-top: 3px solid #800204;
+    padding-top: 1rem;
+    text-align: left;
+}
+
+h2{
+    font-size: 14pt;
+    color: ivory;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    background-position: center;
+    z-index:-1;
+}
